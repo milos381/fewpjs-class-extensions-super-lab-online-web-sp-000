@@ -1,5 +1,5 @@
 class Tree {
-    constructor( species ) {
+    constructor(species) {
       this.species = species
     }
   
@@ -11,7 +11,7 @@ class Tree {
   
   class Deciduous extends Tree {
     constructor( species, name ) {
-      super( species )
+      super(species)
       this.name = name
     }
   
@@ -22,7 +22,7 @@ class Tree {
   
   class Evergreen extends Tree {
     constructor( species, name ) {
-      super( species )
+      super(species)
       this.name = name
     }
   
